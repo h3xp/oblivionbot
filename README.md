@@ -5,13 +5,13 @@ Simple Discord-Bot I created for a guild that can interact with [eqdkp](https://
 The bot is very outdated so don't expect this to run.
 
 
-# install
+## install
 
 ```
 npm install
 ```
 
-# run
+## run
 
 ```
 node oblivion.js
