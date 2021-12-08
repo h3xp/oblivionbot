@@ -1,0 +1,26 @@
+{
+  "name": "oblivionbot",
+  "version": "1.0.0",
+  "description": "oblivion guild bot",
+  "main": "oblivion.js",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cleverbot": "^1.0.1",
+    "cleverbot-node": "^0.3.11",
+    "discord.js": "^12.0.0-dev",
+    "fs": "^0.0.1-security",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.7",
+    "request": "^2.88.0",
+    "ytdl-core": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "foo"
+  },
+  "author": "owl",
+  "license": "ISC"
+}
