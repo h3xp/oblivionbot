@@ -247,15 +247,15 @@ if (msg.author.id != cfg.BotID){
         }
   	}
     
-  	if (msg.content.startsWith(prefix + "registrations")){
+  	if (msg.content.startsWith(prefix + "registered")){
 
       var date;
 
-      if (msg.content == (prefix + "registrations")){
+      if (msg.content == (prefix + "registered")){
         date = "CURDATE()";
         console.log ("CURDATE " + date)
       }else {
-        date = msg.content.replace(prefix+"registrations ","");
+        date = msg.content.replace(prefix+"registered ","");
         date = "'"+date+"'";
         console.log("DATE " + date)
       }
